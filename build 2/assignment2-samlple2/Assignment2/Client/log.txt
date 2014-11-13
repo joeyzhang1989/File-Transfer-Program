@@ -1,0 +1,187 @@
+Sender: starting on host BERGSON
+Sender: sending file .\111.pdf
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: resent packet 0
+Sender: resent packet 0
+Sender: resent packet 0
+Sender: resent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: resent packet 0
+Sender: resent packet 0
+Sender: resent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: resent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: resent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: resent packet 0
+Sender: resent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: resent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: resent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: resent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: resent packet 1
+Sender: resent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: resent packet 0
+Sender: resent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: resent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: resent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: resent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: resent packet 0
+Sender: resent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: resent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: sent packet 1
+Sender: resent packet 1
+Sender: resent packet 1
+Sender: resent packet 1
+Sender: resent packet 1
+Sender: received ACK for packet 1
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sender: File transfer completed
+Sender: Number of packets sent 113
+Sender: Number of effective packets sent 63
+Receiver: starting on host BERGSON
+Receiver: receiving file .\111.pdf
+Receiver: received packet 0
+Receiver: sent ACK for packet 0
+Sender: File transfer completed
+Sender: Number of bytes received 512
