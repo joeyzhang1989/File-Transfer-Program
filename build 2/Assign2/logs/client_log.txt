@@ -1,8 +1,0 @@
-Welcome to COMP6461 assignment 2.
-Developed by Chenglong Zhang & Liu Sun
-
-If any error happens, please check the logs first, which are placed under $ThisProgram\logs\. 
-
-Please set the window size: 
-
-Type name of ftp server (router): 

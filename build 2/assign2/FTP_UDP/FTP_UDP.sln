@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "FTP_UDP\FTP_UDP.vcxproj", "{647269E9-ABCD-42A3-AD83-6FAAF4A34819}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcxproj", "{D63B140F-FE41-44AD-BB65-4EF98D85A079}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "router", "router\router.vcxproj", "{C16C36FA-A303-4A77-A545-023FBA2FF969}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{647269E9-ABCD-42A3-AD83-6FAAF4A34819}.Debug|Win32.ActiveCfg = Debug|Win32
+		{647269E9-ABCD-42A3-AD83-6FAAF4A34819}.Debug|Win32.Build.0 = Debug|Win32
+		{647269E9-ABCD-42A3-AD83-6FAAF4A34819}.Release|Win32.ActiveCfg = Release|Win32
+		{647269E9-ABCD-42A3-AD83-6FAAF4A34819}.Release|Win32.Build.0 = Release|Win32
+		{D63B140F-FE41-44AD-BB65-4EF98D85A079}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D63B140F-FE41-44AD-BB65-4EF98D85A079}.Debug|Win32.Build.0 = Debug|Win32
+		{D63B140F-FE41-44AD-BB65-4EF98D85A079}.Release|Win32.ActiveCfg = Release|Win32
+		{D63B140F-FE41-44AD-BB65-4EF98D85A079}.Release|Win32.Build.0 = Release|Win32
+		{C16C36FA-A303-4A77-A545-023FBA2FF969}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C16C36FA-A303-4A77-A545-023FBA2FF969}.Debug|Win32.Build.0 = Debug|Win32
+		{C16C36FA-A303-4A77-A545-023FBA2FF969}.Release|Win32.ActiveCfg = Release|Win32
+		{C16C36FA-A303-4A77-A545-023FBA2FF969}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
