@@ -1,4 +1,1 @@
-Server starting on host:zcl-pc
-Connecting to remote host successfully:
-	192.168.12.106
-	zcl-pc
+Server starting on host:WAITING

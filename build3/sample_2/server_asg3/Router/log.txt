@@ -1,3 +1,0 @@
-Peer host 1: zcl-pc
-Peer host 2: zcl-pc
-Damage Rate: 0
