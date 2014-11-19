@@ -1,0 +1,25 @@
+﻿Build started 11/19/2014 4:49:29 PM.
+     1>Project "C:\Users\chenglong\Documents\GitHub\network\build3\assign3\Client\Client.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt client.cpp
+         client.cpp
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\ftplib.cpp(42): error C2057: expected constant expression
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\ftplib.cpp(42): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\ftplib.cpp(42): error C2133: 'packet' : unknown size
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\ftplib.cpp(60): error C2057: expected constant expression
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\ftplib.cpp(60): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\ftplib.cpp(60): error C2133: 'packet' : unknown size
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\ftplib.cpp(88): error C2057: expected constant expression
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\ftplib.cpp(88): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\ftplib.cpp(88): error C2133: 'ackbuf' : unknown size
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\ftplib.cpp(89): error C2070: 'char []': illegal sizeof operand
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\ftplib.cpp(97): error C2057: expected constant expression
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\ftplib.cpp(97): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\ftplib.cpp(97): error C2133: 'ackbuf' : unknown size
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\ftplib.cpp(98): error C2070: 'char []': illegal sizeof operand
+     1>c:\users\chenglong\documents\github\network\build3\assign3\client\client.cpp(19): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Done Building Project "C:\Users\chenglong\Documents\GitHub\network\build3\assign3\Client\Client.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.42
