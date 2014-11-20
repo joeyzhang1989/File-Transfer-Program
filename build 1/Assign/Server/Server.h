@@ -42,7 +42,7 @@ union {struct sockaddr generic;
 	int ibytessent;
 
 	//host data types
-	char localhost[11];
+	char localhost[21];
 
 	HOSTENT *hp;
 

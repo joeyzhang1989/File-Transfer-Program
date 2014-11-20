@@ -1,0 +1,45 @@
+﻿Build started 11/20/2014 1:01:22 PM.
+     1>Project "G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Server\Server.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt server.cpp
+         server.cpp
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(256): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(283): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(243): warning C4101: 'sendbuffer' : unreferenced local variable
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(242): warning C4101: 'recvbuffer' : unreferenced local variable
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(319): warning C4101: 'sendbuffer' : unreferenced local variable
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(400): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(416): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(459): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(523): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(526): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(529): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(542): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(544): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(551): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(600): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(590): warning C4101: 'filebuffer' : unreferenced local variable
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(645): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getcwd. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\direct.h(130) : see declaration of 'getcwd'
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\server\server.cpp(648): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\Server.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\Server.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\Server.lib" /MACHINE:X86 Debug\server.obj
+         LINK : G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\Server.exe not found or not built by the last incremental link; performing full link
+         Server.vcxproj -> G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\Server.exe
+     1>Done Building Project "G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Server\Server.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.05

@@ -1,13 +1,11 @@
-﻿Build started 11/11/2014 10:16:14 PM.
-     1>Project "G:\FTP_UDP_2\FTP_UDP\router\router.vcxproj" on node 4 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\FTP_UDP\Router.cpp
-         Router.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\FTP_UDP_2\FTP_UDP\Debug\router.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\FTP_UDP_2\FTP_UDP\Debug\router.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\FTP_UDP_2\FTP_UDP\Debug\router.lib" /MACHINE:X86 Debug\Router.obj
-         router.vcxproj -> G:\FTP_UDP_2\FTP_UDP\Debug\router.exe
-     1>Done Building Project "G:\FTP_UDP_2\FTP_UDP\router\router.vcxproj" (Build target(s)).
+﻿Build started 11/20/2014 1:01:57 PM.
+     1>Project "G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\router\router.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\router.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\router.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\router.lib" /MACHINE:X86 Debug\Router.obj
+         LINK : G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\router.exe not found or not built by the last incremental link; performing full link
+         router.vcxproj -> G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\router.exe
+     1>Done Building Project "G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\router\router.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.96
+Time Elapsed 00:00:01.62

@@ -1,1 +1,1 @@
-Client starting on host:WAITING
+Client starting on host:BANTING

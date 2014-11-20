@@ -1,49 +1,50 @@
-﻿Build started 11/11/2014 10:29:55 PM.
-     1>Project "G:\FTP_UDP_2\FTP_UDP\client\client.vcxproj" on node 2 (Build target(s)).
+﻿Build started 11/20/2014 1:01:22 PM.
+     1>Project "G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\client\client.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt client.cpp
          client.cpp
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(119): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(119): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(146): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(146): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(106): warning C4101: 'sendbuffer' : unreferenced local variable
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(105): warning C4101: 'recvbuffer' : unreferenced local variable
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(184): warning C4101: 'sendbuffer' : unreferenced local variable
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(248): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(106): warning C4101: 'sendbuffer' : unreferenced local variable
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(105): warning C4101: 'recvbuffer' : unreferenced local variable
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(184): warning C4101: 'sendbuffer' : unreferenced local variable
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(248): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(283): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(283): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(292): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(292): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(296): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(296): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(305): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(305): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(341): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getcwd. See online help for details.
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(341): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getcwd. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\direct.h(130) : see declaration of 'getcwd'
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(344): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(344): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(372): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(372): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(413): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(413): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(405): warning C4101: 'clientfilename' : unreferenced local variable
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(411): warning C4101: 'filestate' : unreferenced local variable
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(406): warning C4101: 'recvbuffer' : unreferenced local variable
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(501): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(405): warning C4101: 'clientfilename' : unreferenced local variable
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(411): warning C4101: 'filestate' : unreferenced local variable
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(406): warning C4101: 'recvbuffer' : unreferenced local variable
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(501): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(544): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(544): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(559): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(559): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(494): warning C4101: 'ibufferlen' : unreferenced local variable
-     1>g:\ftp_udp_2\ftp_udp\client\client.cpp(764): warning C4101: 'filename' : unreferenced local variable
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(494): warning C4101: 'ibufferlen' : unreferenced local variable
+     1>g:\my documents\github\network\build 2\assign2\ftp_udp\client\client.cpp(764): warning C4101: 'filename' : unreferenced local variable
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\FTP_UDP_2\FTP_UDP\Debug\client.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\FTP_UDP_2\FTP_UDP\Debug\client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\FTP_UDP_2\FTP_UDP\Debug\client.lib" /MACHINE:X86 Debug\client.obj
-         client.vcxproj -> G:\FTP_UDP_2\FTP_UDP\Debug\client.exe
-     1>Done Building Project "G:\FTP_UDP_2\FTP_UDP\client\client.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\client.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\client.lib" /MACHINE:X86 Debug\client.obj
+         LINK : G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\client.exe not found or not built by the last incremental link; performing full link
+         client.vcxproj -> G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\Debug\client.exe
+     1>Done Building Project "G:\My Documents\GitHub\network\build 2\assign2\FTP_UDP\client\client.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:04.91
+Time Elapsed 00:00:06.33

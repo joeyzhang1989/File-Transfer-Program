@@ -11,10 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\FTP_UDP\Router.cpp" />
+    <ClCompile Include="..\Server\Router.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\FTP_UDP\Router.h" />
+    <ClInclude Include="..\Server\Router.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C16C36FA-A303-4A77-A545-023FBA2FF969}</ProjectGuid>
