@@ -189,7 +189,7 @@ int main(void)
 			memset(&serverAddr,0,sizeof(serverAddr));
 			memcpy(&serverAddr.sin_addr,rp->h_addr,rp->h_length);
 			serverAddr.sin_family = AF_INET;   
-			serverAddr.sin_port = htons(PEER_PORT2);
+			serverAddr.sin_port = htons(ROUTER_PORT1);
 
 			memset(&clientAddr,0,sizeof(struct sockaddr_in));
 			clientAddr.sin_family = AF_INET;

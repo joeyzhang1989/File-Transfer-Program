@@ -1,0 +1,5 @@
+Peer host 1: zcl-pc
+Peer host 2: zcl-pc
+Damage Rate: 30
+Router: Receive packet 0 from peer host 1
+Router: Packet 0 received from peer host 1 has been dropped by router!
