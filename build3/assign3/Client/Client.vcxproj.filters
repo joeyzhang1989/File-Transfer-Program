@@ -18,13 +18,10 @@
     <ClCompile Include="client.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ftplib.cpp">
+    <ClCompile Include="..\common\socklib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="protocol.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="socketlib.cpp">
+    <ClCompile Include="..\common\syslogger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

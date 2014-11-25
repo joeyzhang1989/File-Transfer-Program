@@ -11,14 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B2694041-1E8D-4C7F-8D87-B0C8B05D9904}</ProjectGuid>
+    <ProjectGuid>{67B1663E-0189-4B4B-BF5C-2731F77BC2BA}</ProjectGuid>
     <RootNamespace>Client</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -44,6 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -64,10 +65,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\common\socklib.cpp" />
+    <ClCompile Include="..\common\syslogger.cpp" />
     <ClCompile Include="client.cpp" />
-    <ClCompile Include="ftplib.cpp" />
-    <ClCompile Include="protocol.cpp" />
-    <ClCompile Include="socketlib.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="client.h" />

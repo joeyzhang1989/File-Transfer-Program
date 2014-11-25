@@ -1,0 +1,22 @@
+Welcome to COMP6461 assignment 3.
+Developed by Chenglong Zhang and Liu Sun.
+
+If any error of Client or Server happens, please check the logs first, which are placed under $ThisProgram\logs\. 
+
+Please set the window size: 
+
+Type name of ftp server (router): 
+Type name of file to be transferred: 
+Type direction of transfer: 
+ftp_udp starting on host: [zcl-pc:5000]. (Window Size: 8)
+
+Sent request to ZCL-PC, waiting...
+
+Sending Handshake Request...
+Sender: sent packet 0
+Get ACK Timeout, sendto again.
+Sender: sent packet 0
+Get ACK Timeout, sendto again.
+Sender: sent packet 0
+Get ACK Timeout, sendto again.
+Sender: sent packet 0

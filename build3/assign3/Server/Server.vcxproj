@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1D7B3AFA-6DEC-4E42-8031-2BDFE2D4FF9A}</ProjectGuid>
+    <ProjectGuid>{B7F71BD4-CB19-43BB-979F-8DB32639FDC2}</ProjectGuid>
     <RootNamespace>Server</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -44,6 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -64,7 +65,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\common\socklib.cpp" />
+    <ClCompile Include="..\common\syslogger.cpp" />
     <ClCompile Include="server.cpp" />
+    <ClCompile Include="Thread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="server.h" />
+    <ClInclude Include="Thread.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

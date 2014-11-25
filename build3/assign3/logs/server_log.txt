@@ -1,0 +1,7 @@
+Welcome to COMP6461 assignment 3.
+Developed by Chenglong Zhang and Liu Sun.
+
+If any error of Client or Server happens, please check the logs first, which are placed under $ThisProgram\logs\. 
+
+Please set the window size: 
+ftp_udp starting on host: [zcl-pc:5001]. (Window Size: 8)

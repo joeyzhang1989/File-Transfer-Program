@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{75190CF2-8B91-4174-81A8-433C1CFCC916}</ProjectGuid>
+    <ProjectGuid>{53A9D1A2-3EEF-4212-9250-C676F46EE6DF}</ProjectGuid>
     <RootNamespace>Router</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -64,6 +64,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Router.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Router.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

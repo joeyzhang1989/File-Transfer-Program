@@ -658,7 +658,6 @@ void TcpClient::setsain()
 		char remotehost[256];		
 		struct hostent *rp;
   				cout << "please enter your router name :" << flush ;
-			
 				cin >> remotehost ;
 			cout << "Router name is: \"" << remotehost << "\"" << endl;
 			

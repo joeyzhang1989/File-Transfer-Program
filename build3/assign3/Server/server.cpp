@@ -1,138 +1,231 @@
-// FTP Server over Datagram (UDP) via router
-// @author Stephen Young
-// @email st_youn@encs.concordia.ca
-// @student_id 9736247
+
 
 #include <winsock.h>
 #include <iostream>
-#include <time.h>
 #include <windows.h>
-#include <string.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 #include <stdio.h>
-#include <stdlib.h>
+#include <process.h>
+#include <string>
+#include <exception>
+
+#include "../common/syslogger.h"
+#include "../common/protocol.h"
+#include "../common/socklib.h"
+#include "server.h"
+
 
 using namespace std;
 
-#include "protocol.cpp"
-#include "socketlib.cpp"
 
-int main(int argc, char **argv){
-    /* Main function, performs the listening loop for client connections */
-    srand ( time(NULL) );
+int SockServer::handshake() {
+	HANDSHAKE hs;
+	int	ret = -1;
+	
+	// wait for client's request
+	hsData.clientSeq = 0;
+	hsData.serverSeq = rand();
+	ret = sock_recvfrom(sock, (char *)&hs, sizeof(HANDSHAKE), 1);
+	if (ret) {
+		SysLogger::inst()->err("failed to get handshake request.");
+		return -1;
+	}
+	
+	// wait for client's response
+// 	hs.clientSeq = 0;
+// 	hs.serverSeq = 0;
+// 	ret = sock_recvfrom(sock, (char *)&hs, sizeof(HANDSHAKE), 1);
+// 	if (ret) {
+// 		SysLogger::inst()->err("failed to get handshake response.");
+// 		return -1;
+// 	}
+	// handshake OK.
+	// save the client's sequence number.
+	//srv_wait4cnn(sock, 10);		// make sure that the ACK of last packet sent
 
-    SOCKET server_socket;       // Global listening socket
-    SOCKADDR_IN sa_out;         // fill with router info
-    WSADATA wsadata;            // Winsock connection object
-    char router[11];            // Store the name of the router
-    char trace_data[128];
+	seq = hs.clientSeq;
+	reset_statistics(true);
+	
+	return 0;
+}
 
-    FILE* logfile = fopen("server.log", "w");
-     
-    try {
-        if (WSAStartup(0x0202,&wsadata)!=0){  
-            throw "Error in starting WSAStartup";
-        }else{
-            /* display the wsadata structure */
-            cout<< endl
-                << "wsadata.wVersion "       << wsadata.wVersion       << endl
-                << "wsadata.wHighVersion "   << wsadata.wHighVersion   << endl
-                << "wsadata.szDescription "  << wsadata.szDescription  << endl
-                << "wsadata.szSystemStatus " << wsadata.szSystemStatus << endl
-                << "wsadata.iMaxSockets "    << wsadata.iMaxSockets    << endl
-                << "wsadata.iMaxUdpDg "      << wsadata.iMaxUdpDg      << endl;
-        }
-        
-        server_socket = open_port(PEER_PORT1);
-        // Prompt for router connection
-        prompt("Enter the router hostname: ", router);
-        sa_out = prepare_peer_connection(router, ROUTER_PORT1);
+int SockServer::start() {
+// 	for (;;) /* Run forever */
+// 	{
+// 		/* Set the size of the result-value parameter */
+// 		int clientLen = sizeof(ServerAddr);
+// 
+// 		/* Wait for a Server to connect */
+// 		if ((client_sock = accept(sock, (struct sockaddr *)&ClientAddr, &clientLen)) == INVALID_SOCKET) {
+// 			SysLogger::inst()->err("accept error");
+// 			return -1;
+// 		}
+// 
+// 		/* Create a Thread for this new connection and run*/
+// 		TcpThread * pt = new TcpThread(client_sock);
+// 		pt->start();
+// 	}
 
-        // Server will block waiting for new client requests indefinitely
-        while(1){
+	bool ifHandShake = true;
+	while (1) {
+		if (ifHandShake) {
+			if (handshake()) {
+				return -1;
+			}
+			ifHandShake = false;
+			continue;
+		}
+		client_handler();
+	}
+	return 0;
+}
 
-            char buffer[RAWBUF_SIZE]; // buffer object
-            int server_num = 0;         // client packet tracer
-            int client_num = 0;         // server packet tracer
+int SockServer::recv_data(MSGHEADER &header, MSGREQUEST &request) {
+	// began to receive the request header
+	string type;
 
-            int selected = rand() % 256;
-            int received, verify;
+	if (sock_recvfrom(sock, (char *)&header, sizeof(MSGHEADER))) {
+		SysLogger::inst()->err("failed to get header of request");
+		return MSGTYPE_RESP_FAILTOGETHEADER;
+	}
+	header.len = ntohl(header.len);
+	if (header.type == MSGTYPE_REQ_GET) {
+		type = MSGTYPE_STRGET;
+		if (header.len != sizeof(MSGREQUEST)) {
+			SysLogger::inst()->err("header.len != sizeof(request). %d, %d", header.len, sizeof(MSGREQUEST));
+			return MSGTYPE_RESP_WRONGHEADER;
+		}
+	} else if (header.type == MSGTYPE_REQ_PUT) {
+		type = MSGTYPE_STRPUT;
+	} else {
+		SysLogger::inst()->err("unknown request type");
+		return MSGTYPE_RESP_UNKNOWNTYPE;
+	}
+	SysLogger::inst()->log("Received a request(type: %s, len: %d)", type.c_str(), header.len);
 
-            int progress = 0;
-            int rcv;
-            
-            cout << "Starting packet ID negotiation..." << endl;
+	// get the filename and host name
+	if (header.len > 0) {
+		if (sock_recvfrom(sock, (char *)&request, sizeof(MSGREQUEST))) {
+			SysLogger::inst()->err("failed to get request info.");
+			return MSGTYPE_RESP_FAILTOGETINFO;
+		}
+		SysLogger::inst()->log("hostname: %s, filename: %s", request.hostname, request.filename);
+	}
+	if (header.type == MSGTYPE_REQ_PUT) {
+		SysLogger::inst()->out("User \"%s\" requested file %s to be Received.", "spacewalker", request.filename);
+	} else {
+		SysLogger::inst()->out("User \"%s\" requested file %s to be sent.", "spacewalker", request.filename);
+	}
 
-            while(1){
+	// send back the response
+	string filename = FILE_DIR_ROOT;
+	filename += request.filename;
 
-                if(progress < 1){
-                    // Receive a random number from the client
-                    if(recv_safe(server_socket, sa_out, buffer, RAWBUF_SIZE, 200) == 200){
-                        cout << "Received " << buffer << endl;
-                        sscanf(buffer,"RAND %d",&received);
-                    }else continue;
+	if (header.type == MSGTYPE_REQ_PUT) {
+		// continue to receive the file before sending response
+		SysLogger::inst()->out("Receiving file from %s, waiting...", request.hostname);
+		if (SockLib::recv_file(sock, filename.c_str(), header.len - sizeof(MSGREQUEST))) {
+			return MSGTYPE_RESP_FAILTORECVFILE;
+		}
+		srv_wait4cnn(sock, 25);		// make sure that the ACK of last packet sent
+		SysLogger::inst()->out("Successfully receive the file: %s", request.filename);
+	}
 
-                    // Send acknowledgement to the client along with our random number
-                    memset(buffer, 0, sizeof(buffer));
-                    sprintf(buffer,"RAND %d %d",received,selected);
-                    if(send_safe(server_socket, sa_out, buffer, RAWBUF_SIZE, 100) != 100){
-                        cout << "Sent " << buffer << endl;
-                        continue;
-                    }
-                    progress = 1;
-                }
+	return MSGTYPE_RESP_OK;
+}
 
-                // Finally wait for a response from the client with the number
-                if((rcv = recv_safe(server_socket, sa_out, buffer, RAWBUF_SIZE, 201)) == 201){
-                    cout << "Received " << buffer << endl;
-                    sscanf(buffer,"RAND %d",&verify);
-                    break;
-                }else if(rcv == 200){
-                    progress = 0;
-                    continue;
-                }
-            }
+void SockServer::client_handler() {
+	MSGHEADER header;
+	MSGREQUEST request;
+	MSGHEADER header_resp;
 
-            client_num = received % WINDOW_SIZE + 1;
-            server_num = selected % WINDOW_SIZE + 1;
+	// handle request
+	SysLogger::inst()->out("Receiving request...");
+	memset((void *)&header, 0, sizeof(MSGHEADER));
+	memset((void *)&request, 0, sizeof(MSGREQUEST));
+	header_resp.type = recv_data(header, request);
 
-            cout << "Negotiated server start " << server_num << " and client start " << client_num << endl;
+	// send back the response
+	header_resp.len = 0;
+	string filename = FILE_DIR_ROOT;
+	filename += request.filename;
 
-            sprintf(trace_data, "negotiated srv %d and cli %d", server_num, client_num);
-            write_log(logfile, "SERVER", trace_data);
+	if (header.type == MSGTYPE_REQ_GET) {
+		// get the file size
+		FILE *pFile = 0;
 
-            // Receive header data from the client
-            if(recv_safe(server_socket, sa_out, buffer, RAWBUF_SIZE, 777) == 777){
+		pFile = fopen(filename.c_str(), "rb");
+		if (pFile == NULL) {
+			SysLogger::inst()->err("No such a file: %s\n", filename.c_str());
+			header_resp.type = MSGTYPE_RESP_NOFILE;
+		} else {
+			fseek(pFile, 0, SEEK_END);
+			header_resp.len = ftell(pFile);
+			fileSize = header_resp.len;
+			fclose(pFile);
+		}
+	}
+	show_statistics(false);
 
-                // Extract data from the headers
-                char cusername[128], filename[128], direction[3];
-                sscanf(buffer,HEADER,cusername,direction,filename);
+	// send header
+	SysLogger::inst()->out("Sending response...");
+	if (sock_sendtoEx(sock, (char *)&header_resp, sizeof(header_resp)) != 0) {
+		SysLogger::inst()->err("sock_sendto error. header.type:%d\n", header.type);
+		return;
+	}
+	SysLogger::inst()->log("Send response: header.type: %d, len: %d", header_resp.type, header_resp.len);
 
-                // Print out the information
-                memset(trace_data, 0, sizeof(trace_data));
-                sprintf(trace_data, "client %s requesting %s of %s", cusername, direction, filename);
-                write_log(logfile, "SERVER", trace_data);
-
-                // Respond to the client request
-                if(!strcmp(direction,GET)){
-                    put(server_socket, sa_out, "SERVER", filename, client_num, server_num, logfile);
-                }else if(!strcmp(direction,PUT)){
-                    get(server_socket, sa_out, "SERVER", filename, client_num, server_num, logfile);
-                }else   throw "Requested protocol does not exist";
-            }
-        }
-
-    // Catch and print any errors
-    } catch(const char * str){
-        cerr << str << WSAGetLastError() << endl;
-    }
-
-    //close server socket and clean up the winsock
-    fclose(logfile);
-    closesocket(server_socket);
-    WSACleanup();
-    return 0;
+	// send file
+	if (header.type == MSGTYPE_REQ_GET && header_resp.type == MSGTYPE_RESP_OK) {
+		SysLogger::inst()->out("Sending file to %s, waiting...", request.hostname);
+		if (send_file(sock, filename.c_str(), header_resp.len)) {
+			return;
+		}
+		SysLogger::inst()->out("Successfully send the file: %s", request.filename);
+	}
+	SysLogger::inst()->log("Send response: file: %s ", filename.c_str());
+	show_statistics(true);
+	SysLogger::inst()->out("\n");
 }
 
 
+int main(void) {
+	srand(time(NULL));
 
+	// create logger
+	if (SysLogger::inst()->set("../logs/server_log.txt")) {
+		return -1;
+	}
+	SysLogger::inst()->wellcome();
+
+	SysLogger::inst()->out("Please set the window size: ");
+	int windowSize = DEFAULT_WINDOWSIZE;
+	
+	//cin >> windowSize;
+
+	SockServer *ts = new SockServer();
+
+	try {
+		ts->setWindowsSize(8);
+		if (ts->udp_init(SERVER_RECV_PORT, windowSize)) {
+			delete ts;
+			return -1;
+		}
+		
+		if (ts->start()) {
+			delete ts;
+			return -1;
+		}
+	}
+	catch (int e) {
+		e = 0;
+		delete ts;
+		return -1;
+	}
+
+	delete ts;
+	return 0;
+}
 
