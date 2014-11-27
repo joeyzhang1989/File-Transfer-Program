@@ -1,0 +1,13 @@
+Receiver: received packet 1 with window sequence 0.
+Receiver: sent an ACK for packet 1 with window sequence 0.
+Receiver: received packet 2 with window sequence 1.
+Receiver: sent an ACK for packet 2 with window sequence 1.
+Receiver: sent an NAK for packet 3 with window sequence 2.
+Receiver: sent an NAK for packet 3 with window sequence 2.
+Receiver: sent an NAK for packet 3 with window sequence 2.
+Receiver: sent an NAK for packet 3 with window sequence 2.
+Receiver: sent an NAK for packet 3 with window sequence 2.
+Receiver: received packet -221 with window sequence 2.
+Receiver: sent an ACK for packet -221 with window sequence 2.
+
+Transfer of file from the client completed

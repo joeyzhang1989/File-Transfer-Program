@@ -1,0 +1,53 @@
+﻿Build started 11/26/2014 11:46:39 AM.
+     1>Project "C:\Users\chenglong\Downloads\New folder\New folder\sample_3\Server\Server.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Server.cpp
+         Server.cpp
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(218): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(256): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(539): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(525) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.h(39) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(575): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(525) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.h(39) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(594): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(525) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.h(39) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(595): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(525) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.h(39) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(597): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(525) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.h(39) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(598): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(525) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.h(39) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(604): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(525) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.h(39) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(605): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(525) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.h(39) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(607): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(525) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.h(39) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(608): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(525) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.h(39) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(660): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(662): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\server\server.cpp(702): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\chenglong\Downloads\New folder\New folder\sample_3\Debug\Server.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\chenglong\Downloads\New folder\New folder\sample_3\Debug\Server.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\chenglong\Downloads\New folder\New folder\sample_3\Debug\Server.lib" /MACHINE:X86 Debug\Server.obj
+         Server.vcxproj -> C:\Users\chenglong\Downloads\New folder\New folder\sample_3\Debug\Server.exe
+     1>Done Building Project "C:\Users\chenglong\Downloads\New folder\New folder\sample_3\Server\Server.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.57

@@ -1,0 +1,87 @@
+﻿Build started 11/26/2014 12:11:06 PM.
+     1>Project "C:\Users\chenglong\Downloads\New folder\New folder\sample_3\Client\Client.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Client.cpp
+         Client.cpp
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(41): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(234): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(236): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(269): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(454): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(506): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(631): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(610) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(723): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(610) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(742): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(610) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(743): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(610) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(745): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(610) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(746): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(610) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(751): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(610) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(752): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(610) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(754): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(610) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(755): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(610) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(818): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(799) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(859): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(799) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(879): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(799) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(880): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(799) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(882): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(799) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(883): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(799) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(888): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(799) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(889): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(799) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(891): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(799) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+     1>c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(892): warning C4258: 'k' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.cpp(799) : definition of 'k' ignored
+                 c:\users\chenglong\downloads\new folder\new folder\sample_3\client\client.h(32) : definition of 'k' used
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\chenglong\Downloads\New folder\New folder\sample_3\Debug\Client.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\chenglong\Downloads\New folder\New folder\sample_3\Debug\Client.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\chenglong\Downloads\New folder\New folder\sample_3\Debug\Client.lib" /MACHINE:X86 Debug\Client.obj
+         Client.vcxproj -> C:\Users\chenglong\Downloads\New folder\New folder\sample_3\Debug\Client.exe
+     1>Done Building Project "C:\Users\chenglong\Downloads\New folder\New folder\sample_3\Client\Client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.21
