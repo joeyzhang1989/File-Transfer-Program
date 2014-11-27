@@ -1,5 +1,0 @@
-Peer host 1: zcl-pc
-Peer host 2: zcl-pc
-Damage Rate: 10
-Router: Receive packet 0 from peer host 1
-Router: Send packet 0 received from peer host 1 to host 2
