@@ -1,0 +1,15 @@
+Welcome to COMP6461 assignment 3.
+Developed by Chenglong Zhang and Liu Sun.
+
+If any error of Client or Server happens, please check the logs first, which are placed under $ThisProgram\logs\. 
+
+Please set the window size: 
+ftp_udp starting on host: [zcl-pc:5001]. (Window Size: 7)
+Receiver: received packet 0, 4
+Received a Handshake Request (31381, 0)
+Sent a Handshake Response (31381, 31381)
+Receiving request...
+Receiver: received packet 21, 0
+Receiver: sent an ACK for packet 21
+Receiver: received packet 22, 0
+Receiver: sent an ACK for packet 22

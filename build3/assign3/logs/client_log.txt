@@ -1,0 +1,35 @@
+Welcome to COMP6461 assignment 3.
+Developed by Chenglong Zhang and Liu Sun.
+
+If any error of Client or Server happens, please check the logs first, which are placed under $ThisProgram\logs\. 
+
+Please set the window size: 
+
+Type name of ftp server (router): 
+Type name of file to be transferred: 
+Type direction of transfer: 
+ftp_udp starting on host: [zcl-pc:5000]. (Window Size: 7)
+
+Sent request to zcl-pc, waiting...
+
+Sending Handshake Request...
+Sender: sent packet 0
+Sender: received ACK for packet 0
+Sent a Handshake Request (31381, 0)
+Received a Handshake Response (31381, 31381) (21, 21)
+Sending request...
+Sender: sent packet 21
+Sender: received ACK for packet 21
+1, 1,0,0,0
+remove_packets: 0, 21
+Sender: sent packet 22
+Sender: received ACK for packet 22
+1, 1,0,0,0
+remove_packets: 0, 22
+Sender: sent packet 23
+Sender: sent packet 24
+Sender: sent packet 25
+Sender: sent packet 26
+Sender: sent packet 27
+Sender: sent packet 28
+Sender: sent packet 29
