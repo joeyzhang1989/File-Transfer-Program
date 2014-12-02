@@ -1,0 +1,688 @@
+Welcome to COMP6461 assignment 3.
+Developed by Chenglong Zhang and Liu Sun.
+
+If any error of Client or Server happens, please check the logs first, which are placed under $ThisProgram\logs\. 
+
+can't bind the socket 
+
+client seq:68
+server seq:143
+three way hand shake success
+client seq:68
+server seq:143
+three way hand shake success
+wating for message 
+
+the message from client: 1505276
+
+PUT
+File name is: 222.pdf
+
+Size of file to be received 31361
+
+File name is: 111.pdf
+
+Size of file to be received 31361
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+ACK 6
+
+ACK 6
+
+ACK 6
+
+ACK 6
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+ACK 6
+
+ACK 6
+
+ACK 6
+
+drop duplicate ack:1505012
+
+drop duplicate ack:1505540
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+ACK 3
+
+ACK 3
+
+ACK 3
+
+ACK 3
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+ACK 3
+
+ACK 3
+
+ACK 3
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+ACK 3
+
+ACK 3
+
+ACK 3
+
+ACK 3
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+ACK 3
+
+ACK 3
+
+ACK 3
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+ACK 6
+
+ACK 6
+
+ACK 6
+
+ACK 6
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+ACK 6
+
+ACK 6
+
+ACK 6
+
+drop duplicate ack:1505012
+
+drop duplicate ack:1505540
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 0
+
+receive seequence 0
+
+receive seequence 0
+
+receive seequence 0
+
+receive seequence 0
+
+ACK 0
+
+ACK 0
+
+ACK 0
+
+ACK 0
+
+receive seequence 0
+
+receive seequence 0
+
+receive seequence 0
+
+ACK 0
+
+ACK 0
+
+ACK 0
+
+drop duplicate ack:1505012
+
+drop duplicate ack:1505540
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 4
+
+receive seequence 4
+
+receive seequence 4
+
+receive seequence 4
+
+receive seequence 4
+
+ACK 4
+
+ACK 4
+
+ACK 4
+
+ACK 4
+
+receive seequence 4
+
+receive seequence 4
+
+receive seequence 4
+
+ACK 4
+
+ACK 4
+
+ACK 4
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 0
+
+receive seequence 0
+
+receive seequence 0
+
+receive seequence 0
+
+receive seequence 0
+
+ACK 0
+
+ACK 0
+
+ACK 0
+
+ACK 0
+
+receive seequence 0
+
+receive seequence 0
+
+receive seequence 0
+
+ACK 0
+
+ACK 0
+
+ACK 0
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+ACK 6
+
+ACK 6
+
+ACK 6
+
+ACK 6
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+ACK 6
+
+ACK 6
+
+ACK 6
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+ACK 6
+
+ACK 6
+
+ACK 6
+
+ACK 6
+
+receive seequence 6
+
+receive seequence 6
+
+receive seequence 6
+
+ACK 6
+
+ACK 6
+
+ACK 6
+
+drop duplicate ack:1505012
+
+drop duplicate ack:1505540
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 2
+
+receive seequence 2
+
+receive seequence 2
+
+receive seequence 2
+
+receive seequence 2
+
+ACK 2
+
+ACK 2
+
+ACK 2
+
+ACK 2
+
+receive seequence 2
+
+receive seequence 2
+
+receive seequence 2
+
+ACK 2
+
+ACK 2
+
+ACK 2
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 2
+
+receive seequence 2
+
+receive seequence 2
+
+receive seequence 2
+
+receive seequence 2
+
+ACK 2
+
+ACK 2
+
+ACK 2
+
+ACK 2
+
+receive seequence 2
+
+receive seequence 2
+
+receive seequence 2
+
+ACK 2
+
+ACK 2
+
+ACK 2
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 2
+
+receive seequence 2
+
+receive seequence 2
+
+receive seequence 2
+
+receive seequence 2
+
+ACK 2
+
+ACK 2
+
+ACK 2
+
+ACK 2
+
+receive seequence 2
+
+receive seequence 2
+
+receive seequence 2
+
+ACK 2
+
+ACK 2
+
+ACK 2
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+receive seequence 5
+
+receive seequence 5
+
+receive seequence 5
+
+ACK 5
+
+ACK 5
+
+ACK 5
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+ACK 3
+
+ACK 3
+
+ACK 3
+
+ACK 3
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+ACK 3
+
+ACK 3
+
+ACK 3
+
+dok send ack:1505012
+
+dok send ack:1505540
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+ACK 3
+
+ACK 3
+
+ACK 3
+
+ACK 3
+
+receive seequence 3
+
+receive seequence 3
+
+receive seequence 3
+
+ACK 3
+
+ACK 3
+
+ACK 3
+

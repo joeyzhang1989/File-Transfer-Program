@@ -1,0 +1,623 @@
+Welcome to COMP6461 assignment 3.
+Developed by Chenglong Zhang and Liu Sun.
+
+If any error of Client or Server happens, please check the logs first, which are placed under $ThisProgram\logs\. 
+
+Type name of server (router): 
+client seq:68
+server seq:143
+three way hand shake success
+client seq:68
+server seq:143
+three way hand shake success
+the size of window is 7: 
+PUT
+resend packets 1
+
+send seequence 1
+
+send seequence 0
+
+the file name: is already exist on the server
+
+Please input the new file name:
+
+send seequence 1
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:1
+
+total number of packets:6
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:2
+
+total number of packets:7
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:3
+
+total number of packets:8
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:4
+
+total number of packets:9
+
+get ack:3984652
+
+fail to receive
+resend times:5
+
+total number of packets:10
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:6
+
+total number of packets:11
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:7
+
+total number of packets:12
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:8
+
+total number of packets:13
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:9
+
+total number of packets:14
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:10
+
+total number of packets:15
+
+get ack:3984652
+
+fail to receive
+resend times:11
+
+total number of packets:16
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:12
+
+total number of packets:17
+
+get ack:3984652
+
+fail to receive
+resend times:13
+
+total number of packets:18
+
+get ack:3984652
+
+get ack:3984916
+
+get ack:3984652
+
+get ack:3984916
+
+get ack:3984652
+
+get ack:3984916
+
+get ack:3984652
+
+fail to receive
+resend times:1
+
+total number of packets:22
+
+resend times:2
+
+total number of packets:23
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:3
+
+total number of packets:24
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:4
+
+total number of packets:25
+
+get ack:3984652
+
+fail to receive
+resend times:5
+
+total number of packets:26
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:6
+
+total number of packets:27
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:7
+
+total number of packets:28
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:8
+
+total number of packets:29
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:9
+
+total number of packets:30
+
+get ack:3984652
+
+fail to receive
+resend times:10
+
+total number of packets:31
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:11
+
+total number of packets:32
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:12
+
+total number of packets:33
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:13
+
+total number of packets:34
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:14
+
+total number of packets:35
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:15
+
+total number of packets:36
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:16
+
+total number of packets:37
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:17
+
+total number of packets:38
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:1
+
+total number of packets:40
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:2
+
+total number of packets:41
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:3
+
+total number of packets:42
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:4
+
+total number of packets:43
+
+resend times:5
+
+total number of packets:44
+
+get ack:3984652
+
+fail to receive
+resend times:6
+
+total number of packets:45
+
+get ack:3984652
+
+fail to receive
+resend times:7
+
+total number of packets:46
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:8
+
+total number of packets:47
+
+get ack:3984652
+
+fail to receive
+resend times:9
+
+total number of packets:48
+
+get ack:3984652
+
+get ack:3984916
+
+get ack:3984652
+
+get ack:3984916
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:1
+
+total number of packets:52
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:2
+
+total number of packets:53
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:3
+
+total number of packets:54
+
+get ack:3984652
+
+fail to receive
+resend times:4
+
+total number of packets:55
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:5
+
+total number of packets:56
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:6
+
+total number of packets:57
+
+get ack:3984652
+
+fail to receive
+resend times:7
+
+total number of packets:58
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:8
+
+total number of packets:59
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:9
+
+total number of packets:60
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:10
+
+total number of packets:61
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:11
+
+total number of packets:62
+
+get ack:3984652
+
+get ack:3984916
+
+get ack:3984652
+
+fail to receive
+resend times:1
+
+total number of packets:64
+
+get ack:3984652
+
+get ack:3984916
+
+get ack:3984652
+
+get ack:3984916
+
+get ack:3984652
+
+get ack:3984916
+
+get ack:3984652
+
+get ack:3984916
+
+get ack:3984652
+
+get ack:3984916
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:1
+
+total number of packets:71
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:2
+
+total number of packets:72
+
+get ack:3984652
+
+get ack:3984916
+
+get ack:3984652
+
+get ack:3984916
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:1
+
+total number of packets:76
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:2
+
+total number of packets:77
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:3
+
+total number of packets:78
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:4
+
+total number of packets:79
+
+get ack:3984652
+
+fail to receive
+resend times:5
+
+total number of packets:80
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:6
+
+total number of packets:81
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:7
+
+total number of packets:82
+
+resend times:8
+
+total number of packets:83
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:9
+
+total number of packets:84
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:10
+
+total number of packets:85
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:11
+
+total number of packets:86
+
+get ack:3984652
+
+fail to receive
+resend times:12
+
+total number of packets:87
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:13
+
+total number of packets:88
+
+get ack:3984652
+
+get ack:3984916
+
+resend times:14
+
+total number of packets:89
+
+get ack:3984652
+
+fail to receive
+resend times:15
+
+total number of packets:90
+
+get ack:3984652
+
+fail to receive
+resend times:16
+
+total number of packets:91
+
+get ack:3984652
+
+fail to receive
+resend times:17
+
+total number of packets:92
+
+get ack:3984652
+
+fail to receive
+resend times:18
+
+total number of packets:93
+
+get ack:3984652
+
+get ack:3984916
+
+get ack:3984652
+
+fail to receive

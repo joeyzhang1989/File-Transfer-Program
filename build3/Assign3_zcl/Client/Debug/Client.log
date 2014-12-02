@@ -1,0 +1,33 @@
+﻿Build started 12/2/2014 4:29:23 PM.
+     1>Project "C:\Users\z_che17\Desktop\Assign3_zcl\Assign3_zcl\Client\Client.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cllient.cpp
+         Cllient.cpp
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(105): warning C4172: returning address of local variable or temporary
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(116): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(188): warning C4172: returning address of local variable or temporary
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(11): warning C4101: 'sendbuffer' : unreferenced local variable
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(10): warning C4101: 'recvbuffer' : unreferenced local variable
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(196): warning C4101: 'sendbuffer' : unreferenced local variable
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(195): warning C4101: 'recvbuffer' : unreferenced local variable
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(333): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(394): warning C4172: returning address of local variable or temporary
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(288): warning C4101: 'sendbuffer' : unreferenced local variable
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(400): warning C4101: 'sendbuffer' : unreferenced local variable
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(614): warning C4101: 'clientfilename' : unreferenced local variable
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(620): warning C4101: 'filestate' : unreferenced local variable
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(615): warning C4101: 'recvbuffer' : unreferenced local variable
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(653): warning C4101: 'ibufferlen' : unreferenced local variable
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(811): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(882): warning C4101: 'filename' : unreferenced local variable
+     1>c:\users\z_che17\desktop\assign3_zcl\assign3_zcl\client\cllient.cpp(867): warning C4715: 'TcpClient::threewayhandshake' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\z_che17\Desktop\Assign3_zcl\Assign3_zcl\Debug\Client.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\z_che17\Desktop\Assign3_zcl\Assign3_zcl\Debug\Client.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\z_che17\Desktop\Assign3_zcl\Assign3_zcl\Debug\Client.lib" /MACHINE:X86 Debug\syslogger.obj
+         Debug\Cllient.obj
+         Client.vcxproj -> C:\Users\z_che17\Desktop\Assign3_zcl\Assign3_zcl\Debug\Client.exe
+     1>Done Building Project "C:\Users\z_che17\Desktop\Assign3_zcl\Assign3_zcl\Client\Client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.86
